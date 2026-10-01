@@ -5,7 +5,7 @@ Türkçe, mobil uyumlu statik tanıtım sitesi. Build veya kurulum gerekmez.
 - `index.html`: tanıtım, özellikler, SSS ve iletişim formu
 - `privacy.html`: uygulama ve web sitesi gizlilik politikası
 - `terms.html`: kullanım koşulları
-- `assets/`: mevcut uygulama maskotu ve örnek ilerleme ekranı
+- `assets/`: gerçek uygulama logosu, maskotu ve oynanış ekranı
 
 Yerel önizleme: `python3 -m http.server 4173`
 
