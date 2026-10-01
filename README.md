@@ -14,3 +14,5 @@ Yerel önizleme: `python3 -m http.server 4173`
 GitHub Pages, main dalı ve / (root) klasörü üzerinden etkinleştirildi. Ayarlar: Settings → Pages → Source: Deploy from a branch. Main dalına gönderim siteyi yayımlar. Beklenen adres: https://anlavc.github.io/Passalingo/
 
 App Store yayını henüz doğrulanmadığından indirme bağlantısı eklenmedi. Yayın sonrası ana sayfadaki durum yazısı gerçek mağaza bağlantısıyla değiştirilebilir. Politikalar mevcut uygulama davranışlarına göre hazırlanmıştır; veri akışları değiştiğinde güncellenmelidir.
+
+Kameralı oyun görseli: kullanıcı tarafından sağlanan ekran görüntüsü, yerleşik ImageGen ile düzenlendi. İstek: arayüzü ve harf çemberini koruyarak kişiyi doğal görünümlü, kurgusal yetişkin bir kadınla değiştirmek. Web sitesi temsili görsel açıklaması kullanır.
