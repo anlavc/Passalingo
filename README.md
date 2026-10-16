@@ -2,10 +2,10 @@
 
 Türkçe, mobil uyumlu statik tanıtım sitesi. Build veya kurulum gerekmez.
 
-- `index.html`: tanıtım, özellikler, SSS ve iletişim formu
+- `index.html`: tanıtım, oyun akışı, özellikler, Bahçem, Kelimelerim, Sahne, SSS ve iletişim formu
 - `privacy.html`: uygulama ve web sitesi gizlilik politikası
 - `terms.html`: kullanım koşulları
-- `assets/`: gerçek uygulama logosu, maskotu ve oynanış ekranı
+- `assets/`: uygulama logosu, filiz maskotu (`sprout.png`) ve `assets/app/` altında uygulamanın güncel ekran görüntüleri
 
 Yerel önizleme: `python3 -m http.server 4173`
 
@@ -15,6 +15,7 @@ GitHub Pages, main dalı ve / (root) klasörü üzerinden etkinleştirildi. Ayar
 
 App Store yayını henüz doğrulanmadığından indirme bağlantısı eklenmedi. Yayın sonrası ana sayfadaki durum yazısı gerçek mağaza bağlantısıyla değiştirilebilir. Politikalar mevcut uygulama davranışlarına göre hazırlanmıştır; veri akışları değiştiğinde güncellenmelidir.
 
-Kameralı oyun görseli: kullanıcı tarafından sağlanan ekran görüntüsü, yerleşik ImageGen ile düzenlendi. İstek: arayüzü ve harf çemberini koruyarak kişiyi doğal görünümlü, kurgusal yetişkin bir kadınla değiştirmek. Web sitesi temsili görsel açıklaması kullanır.
-
-İkinci kameralı görsel: yeni referanstaki kıvırcık koyu saçlı kadın, siyah kazak ve bitkili, sıcak lambalı ev arka planı; gerçek ekran görüntüsündeki oyun yerleşimi, metinler ve kontroller korunarak yerleşik ImageGen ile düzenlendi. Dosya: assets/gameplay-camera-v2.png.
+Ekran görüntüleri (15 Ekim 2026): iOS Simülatörü'nde (iPhone 17 Pro) uygulamanın DEBUG önizleme bayraklarıyla
+(`--preview-route`, `--preview-game`, `--preview-result`, `--preview-stage`, `--preview-review`, `--preview-study`,
+`--preview-badges`, `--preview-preparation`, `--preview-profile --preview-garden-state`) alındı ve 1300 px yüksekliğe
+JPEG olarak küçültüldü. Uygulama ekranları değiştiğinde aynı bayraklarla yeniden alınabilir.
