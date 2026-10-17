@@ -7,7 +7,7 @@
   --night-text:#c9e3d7;--night-muted:#8fb3a4;
 }
 *{box-sizing:border-box}
-html{scroll-behavior:smooth;scroll-padding-top:24px}
+html{scroll-behavior:smooth;scroll-padding-top:24px;-webkit-text-size-adjust:100%;text-size-adjust:100%}
 body{margin:0;background:var(--paper);color:var(--ink);font-family:'DM Sans',sans-serif;font-size:16px;line-height:1.65;overflow-x:hidden}
 a{color:inherit}
 button,input,textarea{font:inherit}
@@ -89,6 +89,7 @@ h3{font-size:22px;letter-spacing:-.5px;font-weight:800}
 .flow article:nth-child(2) .phone{transform:translateY(-18px)}
 .step{font-family:Nunito,sans-serif;font-weight:900;font-size:14px;color:var(--green);display:block;margin-bottom:10px}
 .flow h3{margin-bottom:10px}
+.swipe-hint{display:none}
 .flow p{color:var(--muted);font-size:15px;line-height:1.75;margin:0;max-width:300px}
 
 .feature-section{background:var(--mint-soft);padding:96px 0}
@@ -332,6 +333,41 @@ footer small{color:var(--muted);grid-column:1/-1;border-top:1px solid var(--line
   .legal-body td:first-child{font-size:15px;padding-bottom:6px}
   .legal-body td:not(:first-child):before{content:attr(data-label);display:block;font-size:11px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--green);margin-top:6px}
   .legal-body .summary{padding:2px 18px 6px}
+  /* Telefon: cihaz görselleri ekranı doldurmasın */
+  .phone{border-width:5px;border-radius:30px;box-shadow:0 18px 36px #0b232026}
+  .section{padding-top:56px;padding-bottom:56px}
+  .hero-art{height:440px;max-width:360px}
+  .phone-hero{width:196px}
+  .glow{width:280px;height:280px}
+  .guide{width:104px;left:2px;bottom:22px}
+  .chip{font-size:14px;padding:6px 12px;border-radius:13px}
+  .chip small{font-size:11px}
+  .chip-word{top:28px;left:0}
+  .chip-streak{top:118px;right:0}
+  .chip-bloom{display:none}
+  .flow{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;margin:30px -20px 0;padding:4px 20px 14px;scrollbar-width:none}
+  .flow::-webkit-scrollbar{display:none}
+  .flow article{flex:0 0 74%;scroll-snap-align:center;text-align:left;background:#fff;border:1px solid var(--line);border-radius:22px;padding:18px}
+  .flow .phone,.flow article:nth-child(2) .phone{width:150px;margin:0 auto 18px;transform:none}
+  .flow h3{font-size:19px}
+  .flow p{margin:0;font-size:14px}
+  .swipe-hint{display:block;margin:6px 0 0;font-size:12px;color:var(--muted)}
+  .spotlight{gap:30px}
+  .spotlight-art .phone{width:180px;transform:none}
+  .cards{gap:10px;margin-top:30px}
+  .card{display:grid;grid-template-columns:38px 1fr;gap:2px 14px;padding:16px 16px 16px 14px;border-radius:18px}
+  .card .icon{grid-row:span 2;width:38px;height:38px;margin:0;font-size:18px;border-radius:12px}
+  .card h3{font-size:16.5px}
+  .card p{margin:2px 0 0;font-size:14px}
+  .garden-art{padding-bottom:56px}
+  .phone-small{width:118px}
+  .review-art .phone{width:44%;max-width:170px}
+  .stage-art .phone{width:190px}
+  .guide-stages{border-radius:18px}
+  .garden-card{width:84%}
+  .garden-list{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;margin:24px -20px 0;padding:0 20px 10px;scroll-padding:0 20px;scrollbar-width:none}
+  .garden-list::-webkit-scrollbar{display:none}
+  .garden-list li{flex:0 0 58%;scroll-snap-align:start}
 }
 
 @media(prefers-reduced-motion:reduce){
