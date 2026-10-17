@@ -5,7 +5,7 @@ Türkçe, mobil uyumlu statik tanıtım sitesi. Build veya kurulum gerekmez.
 - `index.html`: tanıtım, oyun akışı, özellikler, Bahçem, Kelimelerim, Sahne, SSS ve iletişim formu
 - `privacy.html`: uygulama ve web sitesi gizlilik politikası
 - `terms.html`: kullanım koşulları
-- `assets/`: uygulama logosu, filiz maskotu (`sprout.png`) ve `assets/app/` altında uygulamanın güncel ekran görüntüleri
+- `assets/`: uygulama logosu, ışık arkadaşı (`firefly.jpg`) ve `assets/app/` altında uygulamanın güncel ekran görüntüleri
 
 Yerel önizleme: `python3 -m http.server 4173`
 
